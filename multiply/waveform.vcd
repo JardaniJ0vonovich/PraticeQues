@@ -1,0 +1,221 @@
+$date
+	Sun May 17 11:56:57 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module rtl_tb $end
+$var wire 4 ! out [3:0] $end
+$var reg 2 " a [1:0] $end
+$var reg 2 # b [1:0] $end
+$var integer 32 $ i [31:0] $end
+$var integer 32 % j [31:0] $end
+$scope module DUT $end
+$var wire 2 & a [1:0] $end
+$var wire 2 ' b [1:0] $end
+$var wire 1 ( w2 $end
+$var wire 1 ) w1 $end
+$var wire 4 * out [3:0] $end
+$scope module HA1 $end
+$var wire 1 + a $end
+$var wire 1 , b $end
+$var wire 1 ) carry $end
+$var wire 1 - sum $end
+$upscope $end
+$scope module HA2 $end
+$var wire 1 . a $end
+$var wire 1 / b $end
+$var wire 1 ( carry $end
+$var wire 1 0 sum $end
+$upscope $end
+$scope module HA3 $end
+$var wire 1 ) a $end
+$var wire 1 ( b $end
+$var wire 1 1 carry $end
+$var wire 1 2 sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+b0 *
+0)
+0(
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10
+1-
+1,
+b1 #
+b1 '
+b1 %
+#20
+0-
+10
+0,
+1/
+b10 #
+b10 '
+b10 %
+#30
+1-
+1,
+b11 #
+b11 '
+b11 %
+#40
+0-
+0,
+0/
+1.
+b0 #
+b0 '
+b1 "
+b1 &
+b1 $
+b0 %
+#50
+1-
+b1 !
+b1 *
+1,
+b1 #
+b1 '
+b1 %
+#60
+12
+0-
+00
+1(
+b10 !
+b10 *
+0,
+1/
+b10 #
+b10 '
+b10 %
+#70
+1-
+b11 !
+b11 *
+1,
+b11 #
+b11 '
+b11 %
+#80
+02
+0(
+b0 !
+b0 *
+0,
+0/
+1+
+0.
+b0 #
+b0 '
+b10 "
+b10 &
+b10 $
+b0 %
+#90
+b10 !
+b10 *
+12
+0-
+1)
+1,
+b1 #
+b1 '
+b1 %
+#100
+02
+b100 !
+b100 *
+1-
+0)
+10
+0,
+1/
+b10 #
+b10 '
+b10 %
+#110
+b110 !
+b110 *
+12
+0-
+1)
+1,
+b11 #
+b11 '
+b11 %
+#120
+02
+b0 !
+b0 *
+1-
+0)
+0,
+0/
+1.
+b0 #
+b0 '
+b11 "
+b11 &
+b11 $
+b0 %
+#130
+12
+0-
+1)
+b11 !
+b11 *
+1,
+b1 #
+b1 '
+b1 %
+#140
+1-
+0)
+00
+1(
+b110 !
+b110 *
+0,
+1/
+b10 #
+b10 '
+b10 %
+#150
+02
+11
+0-
+1)
+b1001 !
+b1001 *
+1,
+b11 #
+b11 '
+b11 %
+#160
+b100 $
+b100 %
+#260

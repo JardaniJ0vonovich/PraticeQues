@@ -1,0 +1,21 @@
+module instruction_mem(clk,reset,read_address,instruction_out);
+	input clk,reset;
+	input [31:0] read_address;
+	output reg [31:0] instruction_out;
+
+	reg[31:0] i_mem[63:0];
+
+	always@(posedge clk or posedge reset)
+	begin
+		if(reset)
+		begin
+			for(k=0;k<=64;k=k+1)
+			begin
+				i_mem[k] <= 32'd00;
+			end
+		end
+
+		else
+			instruction_out <= i_mem[read_address];
+	end
+endmodule
